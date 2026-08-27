@@ -5,7 +5,7 @@ import {
   Sparkles, Target, Zap
 } from "lucide-react"
 
-const API = import.meta.env.VITE_API_URL || "/api"
+const API = import.meta.env.VITE_API_URL || ""
 
 function AgentCard({ agent, index }) {
   const [open, setOpen] = useState(false)
